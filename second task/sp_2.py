@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy as sc
 
-f = open(r'C:\Users\Anton\Downloads\large.txt', 'r')
+f = open(r'sources\large.txt', 'r')
 lines = f.readlines()
 l = []
 for line in lines:
